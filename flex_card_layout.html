@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Card Layout</title>
+
+    <style>
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: stretch;
+        }
+        .card {
+          flex: 0 0 200px;
+          margin: 20px;
+          border: 1px solid #ccc;
+          box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        } 
+        .card img {
+          max-width: 100%;
+        }
+        .card .text {
+          padding: 0 20px 20px;
+        }
+        .card .text > button {
+          background: gray;
+          border: 0;
+          color: white;
+          padding: 10px;
+          width: 100%;
+          }
+      </style>
+      
+</head>
+<body>
+    
+    <h1><center><u>Welcome To Famous Places Of India </u></center></h1>
+    
+    <main class="cards">
+        
+        <article class="card">
+          <img src="Place1.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Taj Mahal</h3>
+            <p>The Taj Mahal is considered to be the greatest architectural achievement in the whole range of Indo-Islamic architecture.The Taj-Mahal is built by Mughal Emperor Shah Jahan in 1653</p>
+            <button>Visit Now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="Place2.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Golden Temple</h3>
+            <p>The Golden temple is famous for its full golden dome, it is one of the most sacred pilgrim spots for Sikhs.Golden Temple is located at Amritsar in Punjab. It was built in 1604 by the by Guru Arjan Dev.</p>
+            <button>Visit Now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="Place3.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Thar Desert in Rajasthan</h3>
+            <p>The Great Indian Desert, Thar Desert is most famous camel safari destination, which is located in the north western of Rajashtan.</p>
+            <button>Visit Now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="Place4.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Kashmir-The Heaven on Earth</h3>
+            <p>Kashmir is the most attractive and famous hill station destination.It is also called the Heaven due to its greenery beauty and fantastic snow-covered hills.</p>
+            <button>Visit Now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="Place5.JPG" alt="Sample photo">
+          <div class="text">
+            <h3>Jal Mahal</h3>
+            <p>The beautiful Mughal-Rajput style palace Jal Mahal is located in the center of Mansagar lake. Jal Mahal is also known as “Water Palace”, Which is most sightseeing place in Jaipur, Rajasthan.</p>
+            <button>Visit Now</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="Place6.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Manali- Stream of Beas River</h3>
+            <p>The Beas River is the most attractive and beautiful sights in the Manali valley.The beautiful view and rippling sound of the river fascinate the lots of tourists.You may feel that you are in heaven.</p>
+            <button>Visit Now</button>
+          </div>
+        </article>
+  
+      </main>
+    
+</body>
+</html>
+
+
+  
